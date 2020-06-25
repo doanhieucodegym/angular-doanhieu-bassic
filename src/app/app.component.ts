@@ -7,4 +7,13 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+  //data binding
+  //event binding
+  user = {
+    name: 'hieu',
+    age :30
+  }
+  onClick(){
+    console.log("haha");
+  }
 }

@@ -2,3 +2,13 @@
 <p>
   Start editing to see some magic happen :)
 </p>
+<!-- hien thị biến vừa tạo  -->
+<p>{{user.name}}</p>
+<p>{{user.age}}</p>
+
+<!--[value] ="user.name" probyding hiển thị dữ liệu từ app component ra teamplate -->
+<input type="text" [value] ="user.name">
+<!--event dinding nhận sự kiện tự ngoài  truyền vào  -->
+<button type="button" (click)="onClick()">Click</button>
+<!-- two dimding được viết tắt của 2 thằng chuyển dữ liệu qua  lại   -->
+<input type="text" [(ngModel)] ="name">
